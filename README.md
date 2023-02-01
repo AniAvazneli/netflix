@@ -17,13 +17,13 @@
 #
 ### Tech Stack
 
-* <img src="readme/react.png" width="25" style="top: 8px" /> *React @ 18.2.0 - front-end framework*
-* <img src="readme/cypress.png" width="25" style="top: 8px" /> *Cypress @10.7.0 - end to end testing Framework*
-* <img src="readme/tailwind.png" width="25" style="top: 8px" /> *Tailwind @3.0.24 - CSS framework*
-* <img src="readme/react-hook-form.png" width="25" style="top: 8px" /> *React-hook-form @7.34.0 - library for forms*
-* <img src="readme/react-router.png" width="25" style="top: 8px" /> *React-router @6.3.0 - library for routing*
-* <img src="readme/react.png" width="25" style="top: 8px" /> *React-use-cookie @1.4.0 - A React hook for managing cookies with no dependencies.*
-* <img src="readme/redux.png" width="25" style="top: 8px" /> *react-redux @8.0.2 - A Predictable State Container for JS Apps*
+* *React @ 18.2.0 - front-end framework*
+* *Cypress @10.7.0 - end to end testing Framework*
+* *Tailwind @3.0.24 - CSS framework*
+* *React-hook-form @7.34.0 - library for forms*
+* *React-router @6.3.0 - library for routing*
+* *React-use-cookie @1.4.0 - A React hook for managing cookies with no dependencies.*
+* *react-redux @8.0.2 - A Predictable State Container for JS Apps*
 
 #
 ### Getting Started
