@@ -24,7 +24,7 @@
 * *React-router @6.3.0 - library for routing*
 * *React-use-cookie @1.4.0 - A React hook for managing cookies with no dependencies.*
 * *react-redux @8.0.2 - A Predictable State Container for JS Apps*
-* *React-Player @2.11.0 - library for player
+* *React-Player @2.11.0 - library for player*
 
 #
 ### Getting Started
