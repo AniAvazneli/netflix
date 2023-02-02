@@ -1,27 +1,76 @@
-# Next.js + Tailwind CSS Example
+# NETFLIX
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.2)](https://tailwindcss.com/blog/tailwindcss-v3-2) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+### Table of Contents
+* [Prerequisites](#Prerequisites)
+* [Tech Stack](#Tech-Stack)
+* [Getting Started](#Getting-Started)
+* [Testing](#Testing)
+* [Deployment](#Deployment)
 
-## Deploy your own
+#
+### Prerequisites
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+* *Node JS @16.X and up*
+* *npm @8 and up*
+* *typescript @4 and up*
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+#
+### Tech Stack
 
-## How to use
+* *React @ 18.2.0 - front-end framework*
+* *Cypress @10.7.0 - end to end testing Framework*
+* *Tailwind @3.0.24 - CSS framework*
+* *React-hook-form @7.34.0 - library for forms*
+* *React-router @6.3.0 - library for routing*
+* *React-use-cookie @1.4.0 - A React hook for managing cookies with no dependencies.*
+* *react-redux @8.0.2 - A Predictable State Container for JS Apps*
+* *React-Player @2.11.0 - library for player*
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
+#
+### Getting Started
+1. First of all you need to clone app repository from github:
+```
+https://github.com/AniAvazneli/netflix.git
+```
+2. Next step requires install all the dependencies.
 
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
+```
+npm install
+```
+3. Also you need to create .env file where copy information from .env.example file
+
+```
+cp .env.example .env
 ```
 
-```bash
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-```
 
-```bash
-pnpm create next-app --example with-tailwindcss with-tailwindcss-app
-```
+### Testing
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+For testing we are using Cypress. You can see all testing files on Cypres e2e subfolder.
+```
+cypress/e2e
+```
+If you want to see test in action, you need install cypress first
+
+```
+npm install cypress --save-dev
+```
+also you need to create cypress.config.ts file and move settings from cypress.config.ts.example there
+```
+cp cypress.config.ts.example cypress.config.ts
+```
+and also in the cypress folder is tsconfig.json file for some typescript configuration.
+
+after all open Cypress
+```
+npx cypress open
+``` 
+[More information about Cypress](https://www.cypress.io)
+
+#
+### Deployment
+Before every deployment you need to create build file.
+```
+npm run dev
+```
+after this you can use this file to deploy project on server.
